@@ -1,0 +1,32 @@
+## Numerous always-ignore items
+*.diff
+*.err
+*.log
+*.swp
+*.vi
+*~
+
+## OS or Editor folders
+*.sublime-workspace
+.DS_Store
+.cache
+.idea
+.project
+.settings
+.tmproj
+Thumbs.db
+desktop.ini
+nbproject
+
+## Folders to ignore
+/classes
+/checkouts
+/target
+/.lein-*
+/.nrepl-port
+
+## Files to ignore
+*.class
+*.jar
+pom.xml
+pom.xml.asc
